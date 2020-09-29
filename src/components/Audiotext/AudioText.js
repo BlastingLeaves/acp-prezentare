@@ -1,25 +1,26 @@
 import React from 'react'
 import ContainerLeft from '../mix/ContainerLeft'
 import Title from '../mix/Title'
-import heroImage from '../../assets/img/hero.png'
+import copy from '../../assets/img/copy.jpeg'
 import Motivatie from './Motivatie'
 
 
-const AudioText = () =>
+const Adcode = () =>
   <>
   <ContainerLeft>
     <div className="text-center lg:text-left lg:w-1/2">
-      <Title>AUDIO text PORTAL</Title>
+      <Title>ADCODE Monitoring System</Title>
       <p className="text-xl lg:text-2xl mt-6 font-light mr-5 text-justify">
-        Un portal destinat tuturor serviciilor și produselor implicate in producția de audiobook, servicii de
-        voice-over,
-        publicare și consum de materiale audio cu text sursă.
+        O   platformă   destinată   proiectării, producerii   și   exploatării   unui   pachet   de   aplicații   software
+        destinate   industriei   media   și   are   ca   scop   centralizarea,
+        organizarea   și   monitorizarea   producțiilor   media   din   industria
+        publicității (reclame audio/ video, teleshoping etc).
       </p>
     </div>
     <div className="lg:w-1/2">
-      <img src={heroImage} alt="hero"/>
+      <img src={copy} style={{width: '100%', display: 'flex' }} alt="hero"/>
     </div>
   </ContainerLeft>
       <Motivatie/>
  </>
-export default AudioText
+export default Adcode

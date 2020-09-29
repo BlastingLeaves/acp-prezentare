@@ -4,13 +4,14 @@ import ContactPage from '../components/Contact'
 import Ecosistem from '../components/Ecosistem'
 import Utilizatori from '../components/Utilizatori/Utilizatori'
 import Beneficii from '../components/Beneficii/Beneficii'
-import AudioText from '../components/Audiotext/AudioText'
+import Adcode from '../components/Audiotext/AudioText'
+
 
 export default () => (
   <Layout>
 
     <section className="pt-20 md:pt-40">
-      <AudioText/>
+      <Adcode/>
     </section>
 
     <section id="beneficii" className="py-20 lg:pt-48">

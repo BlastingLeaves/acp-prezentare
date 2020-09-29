@@ -17,7 +17,7 @@ const Footer = () => (
         <p className="mt-5 sm:text-xsm text-justify">
           Societatea comeriala contractantă este:
           <br/>
-          <strong>AUDIOBOOK MARKET SRL</strong>
+          <strong>ADCODE Monitoring System SRL</strong>
           <br/>
           cu sediul in
           <br/>

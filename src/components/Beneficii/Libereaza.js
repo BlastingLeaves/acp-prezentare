@@ -3,11 +3,12 @@ import Card from '../Card'
 import AppIcon from '../AppIcon'
 
 
+
 const Libereaza = () =>
   <div className="flex-1 px-3">
     <Card className="mb-8">
       <p className="font-semibold text-xl">
-        <AppIcon/>Liberalizează
+       <AppIcon/>Liberalizează
       </p>
       <p className="mt-4">
         piața de srvicii conexe domeniului, dând posibilitatea unei largi categorii

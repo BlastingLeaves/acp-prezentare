@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="bdaeac79-23fc-4357-85d4-66722a4da937" name="ines" url="http://wwwaudiotext.media">
-        <fileTransfer host="ftp.audiotext.media" port="21">
+      <webServer id="09f678ea-4cb4-4e40-8573-67733053428c" name="adcode" url="http://ftp.adcode.ro">
+        <fileTransfer host="ftp.adcode.ro" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

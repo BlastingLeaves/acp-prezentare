@@ -24,7 +24,7 @@ const config = {
   user: process.env.FTP_USER,
   port: 21
 }
-
+console.log(config)
 const ftpClient = new FtpClient()
 
 function createDirectory(destination) {

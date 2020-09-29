@@ -9,7 +9,7 @@ module.exports = {
         },
         secondary: {
           lighter: '#8C8D90',
-          default: '#6D6E71',
+          default: '#b8babe',
           darker: '#48494C'
         }
       }

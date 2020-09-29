@@ -25,7 +25,7 @@ const Ecosistem = () =>
         de exemplu a serviciilor de ilustrație de carte de care editurile au nevoie.
       </p>
       <div className=" lg:w-full ">
-        <img src={ecosystemImage} className=' lg:w-full lg:h-full ' alt="hero"/>
+        {/*<img src={ecosystemImage} className=' lg:w-full lg:h-full ' alt="hero"/>*/}
       </div>
   </Container>
 

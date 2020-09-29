@@ -1,6 +1,6 @@
 import React from 'react'
 import Subtitle from '../mix/SubTitle'
-import consumatorImage from '../../assets/img/consumator.png'
+import Artist from '../../assets/img/Artist.png'
 import SplitSection from '../SplitSection'
 
 const Consumator = () =>
@@ -8,16 +8,15 @@ const Consumator = () =>
     primarySlot={
       <div className="lg:pr-32 xl:pr-48">
         <Subtitle>
-          Consumatorul final
+         Talent
         </Subtitle>
         <p className="mt-8 text-xl font-light leading-relaxed text-justify">
-          de audiobook ce va gasi intreaga ofertă de produse din această categorie, într-o arhivă online, pe care o
-          poate accesa de pe orice dispozitiv mobil și în plus, acces la recenzii,
-          comentarii și alte informații despre aparițiile viitoare
+          care participă la realizarea diferitelor producții media – ADCODE
+          le oferă un loc în care au șansa de lucra cu diferiți producători și de a-și expune producțiile media.
         </p>
       </div>
     }
-    secondarySlot={<img className="w-full" src={consumatorImage} alt="consumatori"/>}
+    secondarySlot={<img className="w-full" src={Artist} alt="consumatori"/>}
   />
 
   export default Consumator
