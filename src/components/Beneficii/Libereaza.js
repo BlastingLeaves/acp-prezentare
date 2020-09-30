@@ -3,17 +3,20 @@ import Card from '../Card'
 import AppIcon from '../AppIcon'
 
 
-
 const Libereaza = () =>
   <div className="flex-1 px-3">
     <Card className="mb-8">
       <p className="font-semibold text-xl">
-       <AppIcon/>Liberalizează
+        <AppIcon/>
+        <br/>
+        Descongestioneaza
       </p>
+
       <p className="mt-4">
-        piața de srvicii conexe domeniului, dând posibilitatea unei largi categorii
-        de prestatori și angajatori de a-și prezenta și/sau contracta serviciil din domeniu.
+        multitudinea de litigii ce s-au nascut din incapacitatea sistemului actual de realiza o distributie echitabila a
+        drepturilor banesti, precum si a frictiunile constante la niveleul orvanismelor de gestiune colectiva.
       </p>
+      <br/>
     </Card>
   </div>
 

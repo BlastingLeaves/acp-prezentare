@@ -11,8 +11,12 @@ const Consumator = () =>
          Talent
         </Subtitle>
         <p className="mt-8 text-xl font-light leading-relaxed text-justify">
-          care participă la realizarea diferitelor producții media – ADCODE
-          le oferă un loc în care au șansa de lucra cu diferiți producători și de a-și expune producțiile media.
+          Toate categoriile de persoane a caror activitati, in cadrul productiei
+          unui vehicol media, genereaza drepturi intelectuale. Cele mai frecvente
+          astfel de categorii sunt actorii, actorii de voce, figuratia speciala, scenaristi, scenogrfi regizori, graficieni.
+          Aplicatia ADCODE le va oferi posibilitatea unei contorizari exacte a productiilor in care serviciile lor sunt implicate,
+          prin urmare vor putea raporta cu acuratete codurile unice ale aacestora, iar la nivelul repartitiei, vor putea fi remunerati
+          cu exactitate n functie de numarul de aparitii in listele de difuzare ale codurilor unice listate pe o perioada specifica de timp.
         </p>
       </div>
     }

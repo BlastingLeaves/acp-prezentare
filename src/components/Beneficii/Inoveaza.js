@@ -2,18 +2,17 @@ import React from 'react'
 import Card from '../Card'
 import AppIcon from '../AppIcon'
 
-
-
-
 const Inoveaza = () =>
   <div className="flex-1 px-3">
     <Card className="mb-8">
       <p className="font-semibold text-xl">
-       <AppIcon/>Inovează
+       <AppIcon/>
+       <br/>
+       Inovează
       </p>
       <p className="mt-4">
-        atat accesul la materiale audio cât și procesele tranzacționale de producere a
-        acestora prin utilizarea unui mediu aât de dinamic cum este internetul.
+        prin introducerea unui sistem informational de mare performanta intr-un domeniu ce nu a fost pana acum informatizat,
+        punand la dispozitia unui larg evantai de utilizatori, instrumente de gestiune si evaluare de mare precizie
       </p>
     </Card>
   </div>

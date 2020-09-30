@@ -3,7 +3,6 @@ import {ErrorMessage, Field, Form, Formik} from 'formik'
 import cx from 'classnames'
 import * as Yup from 'yup'
 
-import SEO from "./seo"
 import Recaptcha from 'react-google-recaptcha'
 import SubmitButton from './submit-button'
 import Subtitle from './mix/SubTitle'
@@ -36,14 +35,12 @@ const ContactPage = () => {
     const [recaptcha, setRecaptcha] = React.useState(false)
 
 
-    const apiKey = 'temporary-development-key'
     const recaptchaKey = '6LdmSvEUAAAAAEzb7u2hvzONKBWfBkmIjf2BRfPb'
 
 
     const onSubmit = (values, {setSubmitting, resetForm}) => {
         setSubmitting(true)
         setTimeout(() => {
-            values.apiKey = site.siteMetadata.apiKey
             alert(JSON.stringify(values, null, 2))
             setSubmitting(false)
             resetForm()
@@ -51,15 +48,13 @@ const ContactPage = () => {
     }
 
     return <>
-        <SEO
-            keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-            title="Contact"
-        />
         <Container>
         <section className="mx-auto w-4/5 md:w-3/5">
-            <Subtitle>CONTACT FORM</Subtitle>
-            <p className=" mb-8 mt-8 leading-loose">
-                Please fill in the contact form. We will reply as soon as possible to your messages.
+            <Subtitle>CONTACTEAZA-NE</Subtitle>
+            <p className=" mb-8 mt-8 leading-loose text-left">
+                Va rugam sa completati formularul de contact de mai jos cu datele dumneavoastra si
+                cu mesajul/intrebarea pe care vreti sa ne-o adresati. Vom incerca in cel mai scurt timp sa dam curs/raspundem
+                mesajului dumneavoastra.
             </p>
             <Formik initialValues={initialValues}
                     validationSchema={validationSchema}

@@ -7,11 +7,13 @@ const Stimuleaza = () =>
   <div className="flex-1 px-3">
     <Card className="mb-8">
       <p className="font-semibold text-xl">
-        <AppIcon/>Stimuleaza
+        <AppIcon/>
+        <br/>
+        Regularizeaza
       </p>
       <p className="mt-4">
-        o piață în creștere, prin facilitarea accesului editurilor mai
-        mici la servicii de producție de audiobook-uri și alte servicii de text-to-audio.
+        un domeniu condamnat la evaluari aproximative datorita lipsei, de pana acum, a unui system de identificare a vehiculelor media si in consecinta  de
+        retribuire corecta a beneficiilor provenite din drepturile intelectuale aferente
       </p>
     </Card>
   </div>
